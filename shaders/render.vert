@@ -2,7 +2,7 @@
 precision highp float;
 
 // corresponds to 2 sigma
-#define MIN_ALPHA_THRESHOLD_RCP 7.38905609893f // 1 / exp(4/2)
+#define MIN_ALPHA_THRESHOLD_RCP 7.38905609893f // 1 / exp(-4/2)
 #define MAX_CUTOFF2 4.0f // log(MIN_ALPHA_THRESHOLD_RCP * MIN_ALPHA_THRESHOLD_RCP)
 #define MIN_ALPHA_THRESHOLD (1.0f / MIN_ALPHA_THRESHOLD_RCP)
 
