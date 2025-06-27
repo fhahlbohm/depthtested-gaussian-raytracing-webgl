@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>WebGL Viewer</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="https://cdn.jsdelivr.net/npm/gl-matrix@3.4.3/gl-matrix-min.js"></script>
+		<script defer src="utils.js"></script>
+		<script defer src="main.js"></script>
+	</head>
+	<body>
+		<div style="position: absolute; top: 10px; z-index: 999; left: 10px;">
+			<span id="loading"></span><br>
+		</div>
+		<canvas id="canvas"></canvas>
+		<div style="position: absolute; bottom: 10px; z-index: 999; right: 10px;">
+			<span id="fps"></span>
+		</div>
+	</body>
+</html>
