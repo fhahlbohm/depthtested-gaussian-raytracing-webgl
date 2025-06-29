@@ -11,7 +11,7 @@ This means that models trained using methods which do not use an exact method fo
 ## Setup
 1. Clone the repository
 2. Download [this exemplary .ply file](https://cloud.tu-braunschweig.de/s/Z2d7RKS9Y6kTQNz) into the root directory of the repository
-3. Serve the root directory of this repository, e.g., with `python -m http.server` or the solution in #1
+3. Serve the root directory of this repository, e.g., with `python -m http.server` or the solution in [#1](https://github.com/fhahlbohm/depthtested-gaussian-raytracing-webgl/issues/1)
 4. Open the `index.html` file in Chrome (other browsers may work as well, but are not tested)
 5. (optional) Modify the constants at the top of `main.js`
 6. (advanced) Modify the constants inside the vertex/fragment shader in `shaders/` to adjust the cutoff for Gaussians
